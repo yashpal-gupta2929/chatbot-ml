@@ -1,13 +1,19 @@
 # Machine Learning Chatbot
 
-A simple chatbot built using Python and TensorFlow.  
-It uses intent classification to respond to user messages.
+A simple intent-based chatbot built using Python and TensorFlow.  
+It classifies user messages and responds accordingly using a trained neural network.
 
 ## Features
-- Intent-based chatbot
-- Neural network using TensorFlow
+- Intent classification chatbot
+- Built using TensorFlow and Keras
 - Tokenization and label encoding
 - Command-line chat interface
+
+## Tech Stack
+- Python
+- TensorFlow
+- Scikit-learn
+- Numpy
 
 ## Installation
 
