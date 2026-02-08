@@ -19,3 +19,26 @@ It classifies user messages and responds accordingly using a trained neural netw
 
 ```bash
 pip install -r requirements.txt
+
+## Project Structure
+chatbot-ml/
+│
+├── intents.json
+├── train.py
+├── chat.py
+├── tokenizer.pickle
+├── label_encoder.pickle
+├── chat_model.keras
+├── requirements.txt
+└── README.md
+
+## Train the model
+python train.py
+
+## Run the chatbot
+python chat.py
+
+Type quit to exit the chatbot.
+Save the file.
+
+----
